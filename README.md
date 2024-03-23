@@ -75,3 +75,9 @@ Em resumo, `@JsonIgnore` é usado para indicar ao framework de serialização JS
 
 Conclusão
 As anotações @ManyToOne e @OneToMany são ferramentas poderosas para modelar relacionamentos em um banco de dados relacional usando JPA. Elas facilitam a criação de associações entre entidades e ajudam a manter a consistência dos dados no sistema.
+
+
+**OBSERVAÇÃO**
+na application.properties:
+    spring.jpa.hibernate.ddl-auto=update para atualizar a tabela
+    spring.jpa.hibernate.ddl-auto=create para criar a tabela
